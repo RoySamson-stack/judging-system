@@ -1,6 +1,6 @@
 <?php 
 $page_title = "Public Scoreboard";
-include 'includes/header.php'; 
+include 'includes/header.php';
 include 'includes/db_connect.php'; 
 ?>
 
@@ -119,7 +119,7 @@ include 'includes/db_connect.php';
 </div>
 
 <script>
-// Enhanced auto-refresh with better UX
+// Enhanced auto-refresh
 document.addEventListener('DOMContentLoaded', function() {
     updateLastRefreshTime();
     setInterval(refreshScoreboard, 10000);
@@ -151,4 +151,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+
 <?php include 'includes/footer.php'; ?>

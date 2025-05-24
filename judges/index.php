@@ -1,7 +1,6 @@
-<!-- 5. ENHANCED JUDGE DASHBOARD (judges/index.php) -->
 <?php 
 $page_title = "Judge Dashboard";
-$css_path = "../";
+$css_path = "../"; 
 include '../includes/header.php'; 
 include '../includes/db_connect.php'; 
 ?>

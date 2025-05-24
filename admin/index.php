@@ -1,6 +1,6 @@
 <?php 
 $page_title = "Admin Dashboard";
-$css_path = "../";
+$css_path = "../"; // Explicitly set the path
 include '../includes/header.php'; 
 include '../includes/db_connect.php'; 
 ?>
@@ -30,6 +30,7 @@ include '../includes/db_connect.php';
         $completion_rate = $total_participants > 0 ? round(($total_scores / ($total_judges * $total_participants)) * 100, 1) : 0;
         ?>
         
+
         <div class="stat-card">
             <span class="stat-number"><?php echo $total_judges; ?></span>
             <div class="stat-label">Active Judges</div>
